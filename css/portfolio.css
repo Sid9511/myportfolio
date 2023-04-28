@@ -820,8 +820,17 @@ span {
         right: -39.5rem;
     }
 
-    .home-img img {
+    .home-img img{
         display: none;
+    }
+
+    .about-img img {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
     }
 
     .services,
@@ -964,6 +973,8 @@ span {
     .about {
         flex-direction: column-reverse;
         text-align: center;
+        align-content: center;
+        margin-left: -.5%;
     }
 
     .about-content h2 {
@@ -973,6 +984,7 @@ span {
     .about-img img {
         width: 70vw;
         margin-top: -2rem;
+        display: none;
     }
 
     .services h2,
@@ -1013,7 +1025,6 @@ span {
         right: 6rem;
     }
 
-
     .home {
         padding: 0 3% 30rem;
     }
@@ -1042,6 +1053,7 @@ span {
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
+        display: none;
     }
 
     #darkMode-icon {
